@@ -4,11 +4,11 @@
 #include "usart.h"
 
 #ifdef MASTER
-#define OA_NUM 0
-#define OB_NUM 1
+#define OA_NUM 0x30
+#define OB_NUM 0x31
 #else
-#define OA_NUM 2
-#define OB_NUM 3
+#define OA_NUM 0x32
+#define OB_NUM 0x33
 #endif
 
 int main(void){
