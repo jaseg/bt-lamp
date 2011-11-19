@@ -90,7 +90,7 @@ EXTRAINCDIRS =
 CSTANDARD = -std=gnu99
 
 # Place -D or -U options here
-CDEFS = -DBAUDRATE=19200
+CDEFS = -DBAUDRATE=19200 -DMASTER=1
 
 # Place -I options here
 CINCS =
